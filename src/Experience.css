@@ -1,0 +1,47 @@
+.experience-section {
+    padding: 50px;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    color: white;
+    text-align: center;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: white;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .timeline-year {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    min-width: 80px;
+    text-align: center;
+  }
+  

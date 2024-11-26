@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(270deg, #ff7eb3, #ff758c, #ff6a80);
+  background-size: 600% 600%;
+  animation: backgroundAnimation 10s infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
