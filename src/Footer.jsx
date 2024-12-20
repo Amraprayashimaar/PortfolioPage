@@ -13,7 +13,7 @@ const Footer = () => {
       }}
     >
       <Typography variant="body2">
-        © 2024 Your Name. All rights reserved.
+        © 2024 Arpita. All rights reserved.
       </Typography>
     </Box>
   );
