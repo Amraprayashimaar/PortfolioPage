@@ -8,7 +8,7 @@ const About = () => {
       <p data-aos="fade-right">
         Hi! I’m a passionate web developer skilled in HTML, CSS, JavaScript, and React.
       </p>
-      <a href="/ArpitaMaurya.pdf" download="Arpita_Maurya_Resume">
+      <a href="ArpitaMaurya.pdf" download="Arpita_Maurya_Resume">
   <button>Download My Resume</button>
 </a>
     </section>
