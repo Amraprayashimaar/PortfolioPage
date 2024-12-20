@@ -8,6 +8,8 @@ const skills = [
   { name: 'JavaScript', level: 80 },
   { name: 'React', level: 75 },
   { name: 'Material-UI', level: 70 },
+  { name: 'Git & GitHub', level: 65 },
+  { name: 'Netlify & Vercel', level: 60 },
 ];
 
 const Skills = () => {
