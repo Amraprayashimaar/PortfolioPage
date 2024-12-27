@@ -2,7 +2,7 @@ import React from 'react';
 import './Education.css';
 
 const education = [
-  { year: '2024', degree: 'Bachelors of Computer Application', institution: 'Mahatma Gandhi Kashi Vidyapith University' },
+  { year: '2025', degree: 'Bachelors of Computer Application', institution: 'Mahatma Gandhi Kashi Vidyapith University' },
   { year: '2022', degree: 'Intermediate', institution: 'Green View Public School' },
 ];
 
